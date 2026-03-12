@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'AI 助手文档合集',
-  description: 'OpenClaw 与 Qclaw 安装、配置、部署全流程文档',
+  title: 'AI Claw Guide',
+  description: 'OpenClaw 与 Qclaw 安装、配置、部署全流程指南',
 
   themeConfig: {
     nav: [

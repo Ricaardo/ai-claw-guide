@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: AI 助手文档合集
-  text: OpenClaw & Qclaw 全流程指南
-  tagline: 从安装到进阶，一站式文档中心
+  name: AI Claw Guide
+  text: OpenClaw & Qclaw 完全食用指南
+  tagline: 从安装到进阶，一站搞定
   actions:
     - theme: brand
       text: 快速开始
