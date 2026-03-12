@@ -11,6 +11,54 @@
 
 ---
 
+## 一键安装脚本
+
+打开终端（Cmd+Space 搜索 Terminal），把下面整段复制粘贴进去，按回车执行：
+
+```bash
+#!/bin/bash
+set -e
+
+# 1. 安装 Xcode 命令行工具（已安装会自动跳过）
+xcode-select -p &>/dev/null || xcode-select --install
+
+# 2. 安装 Homebrew（已安装会自动跳过）
+if ! command -v brew &>/dev/null; then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  # Apple Silicon Mac 需要手动加 PATH
+  if [ -f /opt/homebrew/bin/brew ]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
+  fi
+fi
+
+# 3. 安装 Node.js
+brew install node || brew upgrade node
+
+# 4. 配置 npm 镜像 + 全局目录
+npm config set registry https://registry.npmmirror.com
+mkdir -p ~/.npm-global
+npm config set prefix ~/.npm-global
+grep -q 'npm-global' ~/.zshrc || echo 'export PATH="$HOME/.npm-global/bin:$PATH"' >> ~/.zshrc
+export PATH="$HOME/.npm-global/bin:$PATH"
+
+# 5. 安装 OpenClaw
+npm install -g openclaw@latest
+
+# 6. 启动配置向导
+openclaw onboard
+```
+
+> **提示**：过程中可能需要输入 Mac 登录密码（输入时屏幕不显示字符，这是正常的）。Homebrew 安装和 Xcode 工具安装需要确认，脚本会等你操作完再继续。
+
+脚本执行完后，`onboard` 会给你一个 Web 控制台地址，在浏览器里打开，输入"你好"测试即可。
+
+---
+
+如果你更习惯逐步操作，以下是分步说明：
+
+---
+
 ## 第一步：打开终端
 
 打开终端（Cmd+Space 搜索 Terminal）。

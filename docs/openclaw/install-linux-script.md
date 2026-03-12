@@ -11,6 +11,44 @@
 
 ---
 
+## 一键安装脚本
+
+打开终端，把下面整段复制粘贴进去，按回车执行：
+
+```bash
+#!/bin/bash
+set -e
+
+# 1. 安装基础依赖
+sudo apt-get update
+sudo apt-get install -y curl git build-essential ca-certificates
+
+# 2. 安装 Node.js 22
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# 3. 配置 npm 镜像 + 全局目录
+npm config set registry https://registry.npmmirror.com
+mkdir -p ~/.npm-global
+npm config set prefix ~/.npm-global
+grep -q 'npm-global' ~/.bashrc || echo 'export PATH="$HOME/.npm-global/bin:$PATH"' >> ~/.bashrc
+export PATH="$HOME/.npm-global/bin:$PATH"
+
+# 4. 安装 OpenClaw
+npm install -g openclaw@latest
+
+# 5. 启动配置向导
+openclaw onboard
+```
+
+> **提示**：过程中需要输入 sudo 密码。`onboard` 完成后会给你一个 Web 控制台地址，在浏览器里打开测试即可。
+
+---
+
+如果你更习惯逐步操作，以下是分步说明：
+
+---
+
 ## 第一步：安装基础依赖
 
 ```bash

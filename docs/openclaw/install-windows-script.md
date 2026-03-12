@@ -14,6 +14,64 @@
 
 ---
 
+## 一键安装脚本
+
+安装分两步。
+
+### 第一步：安装 WSL2（PowerShell 管理员）
+
+右键点击开始按钮 → "终端(管理员)"，粘贴执行：
+
+```powershell
+wsl --install
+```
+
+执行后**重启电脑**。重启后打开开始菜单搜索 `Ubuntu`，打开并创建 Linux 用户名和密码。
+
+### 第二步：安装 OpenClaw（Ubuntu 终端）
+
+打开 Ubuntu 终端，把下面整段复制粘贴进去，按回车执行：
+
+```bash
+#!/bin/bash
+set -e
+
+# 1. 启用 systemd
+sudo tee /etc/wsl.conf >/dev/null <<'WSLEOF'
+[boot]
+systemd=true
+WSLEOF
+
+# 2. 安装基础依赖
+sudo apt-get update
+sudo apt-get install -y curl git build-essential ca-certificates
+
+# 3. 安装 Node.js 22
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# 4. 配置 npm 镜像 + 全局目录
+npm config set registry https://registry.npmmirror.com
+mkdir -p ~/.npm-global
+npm config set prefix ~/.npm-global
+grep -q 'npm-global' ~/.bashrc || echo 'export PATH="$HOME/.npm-global/bin:$PATH"' >> ~/.bashrc
+export PATH="$HOME/.npm-global/bin:$PATH"
+
+# 5. 安装 OpenClaw
+npm install -g openclaw@latest
+
+# 6. 启动配置向导
+openclaw onboard
+```
+
+> **提示**：过程中需要输入你刚才创建的 Ubuntu 密码。`onboard` 完成后会给你一个 Web 控制台地址，复制完整地址（包括 `#token=` 部分）在 **Windows 浏览器**里打开。
+
+---
+
+如果你更习惯逐步操作，以下是分步说明：
+
+---
+
 > 提醒：接下来会用到两个不同的终端。第一阶段用 Windows PowerShell，第二阶段切换到 Ubuntu 终端。注意区分。
 
 ## 第一阶段：安装 WSL2 和 Ubuntu（在 PowerShell 里做）
