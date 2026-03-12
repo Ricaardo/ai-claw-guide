@@ -23,4 +23,7 @@ features:
   - title: 排障与进阶
     details: 常见问题排查、日志分析、进阶玩法与高级配置一网打尽。
     link: /openclaw/troubleshooting
+  - title: 资源导航
+    details: 技能库、模型平台、Prompt 技巧、社区工具、学习教程等外部资源一站汇总。
+    link: /resources
 ---
