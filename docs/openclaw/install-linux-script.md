@@ -5,6 +5,19 @@
 
 ---
 
+::: tip 其他安装方式
+除了下面的手动脚本，社区还有这些一键安装工具：
+
+- [OpenClaw 官方一键脚本](https://github.com/openclaw/openclaw) — `curl -fsSL https://openclaw.ai/install.sh | bash`，macOS/Linux/WSL2 通用
+- [OpenClawInstaller (GUI)](https://github.com/OpenClawInstaller/OpenClawInstaller) — 跨平台图形安装器，支持 npm 和 Docker 两种模式
+- [OpenClawInstaller by miaoxworld](https://github.com/miaoxworld/OpenClawInstaller) — 多平台多模型一键部署工具
+- [ClawHost](https://github.com/bfzli/clawhost) — 一键云端部署，自动配置 VPS + DNS + SSL
+- [openclaw-deploy](https://github.com/ly68900/openclaw-deploy) — Fly.io 免费部署，3 分钟上线
+- [install-openclaw-on-termux](https://github.com/hillerliao/install-openclaw-on-termux) — 在 Android Termux 上部署 OpenClaw
+:::
+
+---
+
 ## 先说结论
 
 7 个步骤，全部复制粘贴，约 10 分钟完成。

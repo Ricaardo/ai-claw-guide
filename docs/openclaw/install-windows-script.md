@@ -5,6 +5,18 @@
 
 ---
 
+::: tip 其他安装方式
+除了下面的手动脚本，社区还有这些一键安装工具：
+
+- [EasyClaw](https://github.com/ybgwon96/easyclaw) — 桌面图形安装器，下载即用，无需终端，支持 macOS + Windows
+- [OpenClawInstaller (GUI)](https://github.com/OpenClawInstaller/OpenClawInstaller) — 跨平台图形安装器，支持 npm 和 Docker 两种模式
+- [OpenClawInstaller by miaoxworld](https://github.com/miaoxworld/OpenClawInstaller) — 多平台多模型一键部署工具
+- [OpenClaw 官方一键脚本](https://github.com/openclaw/openclaw) — Windows PowerShell: `iwr -useb https://openclaw.ai/install.ps1 | iex`
+- [ClawHost](https://github.com/bfzli/clawhost) — 一键云端部署，自动配置 VPS + DNS + SSL
+:::
+
+---
+
 ## 先说结论
 
 - 本方案是"在 Windows 里装一个 Ubuntu 小环境，再在里面装 OpenClaw"，是当前官方对零基础用户最稳的 Windows 路线
