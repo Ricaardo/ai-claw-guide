@@ -18,6 +18,13 @@
 - Mac 用户：[03-OpenClaw-本地安装-macOS-零基础指南.md](03-OpenClaw-本地安装-macOS-零基础指南.md)
 - Windows 用户：[05-OpenClaw-本地安装-Windows-零基础指南.md](05-OpenClaw-本地安装-Windows-零基础指南.md)
 - 云端部署用户：[04-OpenClaw-云端部署-通用-零基础指南.md](04-OpenClaw-云端部署-通用-零基础指南.md)
+- 飞书云 Claw 已装好用户：[04A-飞书云Claw-安装后使用与配置指南.md](04A-飞书云Claw-安装后使用与配置指南.md)
+- 飞书云 Claw 想直接抄定时任务模板：[04B-飞书云Claw-定时任务模板大全.md](04B-飞书云Claw-定时任务模板大全.md)
+- 飞书云 Claw 想直接看常用 Skills 话术：[04C-飞书云Claw-常用Skills场景手册.md](04C-飞书云Claw-常用Skills场景手册.md)
+- 飞书云 Claw 出问题想快速排查：[04D-飞书云Claw-故障排查速查表.md](04D-飞书云Claw-故障排查速查表.md)
+- 飞书云 Claw 想直接抄一套推荐配置：[04E-飞书云Claw-推荐配置清单.md](04E-飞书云Claw-推荐配置清单.md)
+- 飞书云 Claw 想建立每天/每周使用节奏：[04F-飞书云Claw-每日与每周最佳实践.md](04F-飞书云Claw-每日与每周最佳实践.md)
+- 飞书云 Claw 想按路线 7 天上手：[04G-飞书云Claw-7天上手路线.md](04G-飞书云Claw-7天上手路线.md)
 
 **一键脚本版**（最快跑通，适合只想先装起来的人）：
 
@@ -38,6 +45,11 @@
 只先配一个模型，够稳定、能回复就行。
 
 - [06-OpenClaw-模型配置-通用说明.md](06-OpenClaw-模型配置-通用说明.md)
+- [06A-OpenClaw-安装后配置-通用说明.md](06A-OpenClaw-安装后配置-通用说明.md)
+- [06B-OpenClaw-USER.md与记忆配置-通用说明.md](06B-OpenClaw-USER.md与记忆配置-通用说明.md)
+- [06C-OpenClaw-自动启动与长期运行-通用说明.md](06C-OpenClaw-自动启动与长期运行-通用说明.md)
+- [06D-OpenClaw-远程访问与安全配置-通用说明.md](06D-OpenClaw-远程访问与安全配置-通用说明.md)
+- [06E-OpenClaw-Skills深度配置-通用说明.md](06E-OpenClaw-Skills深度配置-通用说明.md)
 
 ### 2.3 第一次对话
 
@@ -71,3 +83,4 @@
 - 命令报错、控制台打不开、授权失败：[10-OpenClaw-排障与维护-通用说明.md](10-OpenClaw-排障与维护-通用说明.md)
 - 渠道不知道怎么选：[07-OpenClaw-聊天渠道-配置总表.md](07-OpenClaw-聊天渠道-配置总表.md)
 - 模型太多不知道怎么配：[06-OpenClaw-模型配置-通用说明.md](06-OpenClaw-模型配置-通用说明.md)
+- 安装完成后不知道还要配什么：[06A-OpenClaw-安装后配置-通用说明.md](06A-OpenClaw-安装后配置-通用说明.md)

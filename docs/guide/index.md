@@ -38,6 +38,11 @@
 只先配一个模型，够稳定、能回复就行。
 
 - [06-OpenClaw-模型配置-通用说明.md](../openclaw/model-config.md)
+- [06A-OpenClaw-安装后配置-通用说明.md](../openclaw/post-install-config.md)
+- [06B-OpenClaw-USER.md 与记忆配置-通用说明.md](../openclaw/user-memory-config.md)
+- [06C-OpenClaw-自动启动与长期运行-通用说明.md](../openclaw/autostart-long-running.md)
+- [06D-OpenClaw-远程访问与安全配置-通用说明.md](../openclaw/remote-security.md)
+- [06E-OpenClaw-Skills 深度配置-通用说明.md](../openclaw/skills-deep-config.md)
 
 ### 2.3 第一次对话
 
@@ -71,3 +76,4 @@
 - 命令报错、控制台打不开、授权失败：[10-OpenClaw-排障与维护-通用说明.md](../openclaw/troubleshooting.md)
 - 渠道不知道怎么选：[07-OpenClaw-聊天渠道-配置总表.md](../openclaw/channel-overview.md)
 - 模型太多不知道怎么配：[06-OpenClaw-模型配置-通用说明.md](../openclaw/model-config.md)
+- 安装完成后不知道还要配什么：[06A-OpenClaw-安装后配置-通用说明.md](../openclaw/post-install-config.md)
