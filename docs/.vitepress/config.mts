@@ -29,6 +29,7 @@ const docSidebar = [
           { text: '飞书云 Claw 7 天上手', link: '/openclaw/feishu-cloud-7day-onboarding' },
           { text: '飞书云 Claw 文档总览', link: '/openclaw/feishu-cloud-index' },
           { text: '飞书云 Claw 极简版', link: '/openclaw/feishu-cloud-simple-guide' },
+          { text: '飞书云 Claw FAQ', link: '/openclaw/feishu-cloud-faq' },
         ],
       },
       {
