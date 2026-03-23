@@ -13,6 +13,24 @@
 
 ## 一、选择你的平台安装文档
 
+### 1.0 如果你是“飞书云 Claw 已经装好”的用户
+
+优先看这一组，不用再从安装文档开始：
+
+- 飞书云 Claw 文档总览：[飞书云 Claw 使用文档总览](../openclaw/feishu-cloud-index.md)
+- 非技术用户极简版：[04H-飞书云 Claw 非技术用户极简版.md](../openclaw/feishu-cloud-simple-guide.md)
+- FAQ 问答版：[04I-飞书云 Claw FAQ.md](../openclaw/feishu-cloud-faq.md)
+- 安装后使用主线：[04A-飞书云 Claw 安装后使用与配置指南.md](../openclaw/feishu-cloud-usage.md)
+- 定时任务模板：[04B-飞书云 Claw 定时任务模板大全.md](../openclaw/feishu-cloud-scheduler-recipes.md)
+- 常用 Skills 场景：[04C-飞书云 Claw 常用 Skills 场景手册.md](../openclaw/feishu-cloud-skills-playbook.md)
+- 故障排查速查表：[04D-飞书云 Claw 故障排查速查表.md](../openclaw/feishu-cloud-troubleshooting.md)
+- 推荐配置清单：[04E-飞书云 Claw 推荐配置清单.md](../openclaw/feishu-cloud-config-checklist.md)
+- 每日与每周最佳实践：[04F-飞书云 Claw 每日与每周最佳实践.md](../openclaw/feishu-cloud-best-practices.md)
+- 7 天上手路线：[04G-飞书云 Claw 7 天上手路线.md](../openclaw/feishu-cloud-7day-onboarding.md)
+
+如果你只想最省事，优先看 `极简版`。
+如果你只想问答式找答案，优先看 `FAQ`。
+
 **零基础完整版**（步骤详细，适合想理解原理的人）：
 
 - Mac 用户：[03-OpenClaw-本地安装-macOS-零基础指南.md](../openclaw/install-macos.md)
