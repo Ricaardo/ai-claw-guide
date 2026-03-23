@@ -57,10 +57,10 @@
 
 - [06-OpenClaw-模型配置-通用说明.md](06-OpenClaw-模型配置-通用说明.md)
 - [06A-OpenClaw-安装后配置-通用说明.md](06A-OpenClaw-安装后配置-通用说明.md)
-- [06B-OpenClaw-USER.md与记忆配置-通用说明.md](06B-OpenClaw-USER.md与记忆配置-通用说明.md)
+- [06B-OpenClaw-USER.md 与记忆配置-通用说明.md](06B-OpenClaw-USER.md与记忆配置-通用说明.md)
 - [06C-OpenClaw-自动启动与长期运行-通用说明.md](06C-OpenClaw-自动启动与长期运行-通用说明.md)
 - [06D-OpenClaw-远程访问与安全配置-通用说明.md](06D-OpenClaw-远程访问与安全配置-通用说明.md)
-- [06E-OpenClaw-Skills深度配置-通用说明.md](06E-OpenClaw-Skills深度配置-通用说明.md)
+- [06E-OpenClaw-Skills 深度配置-通用说明.md](06E-OpenClaw-Skills深度配置-通用说明.md)
 
 ### 2.3 第一次对话
 

@@ -1,6 +1,6 @@
 # 飞书云 Claw 使用文档总览
 
-> **适用对象**：已经安装好飞书云 Claw，想快速找到对应使用文档的用户 | **文档版本**：V1.0
+> **适用对象**：已经安装好飞书云 Claw，想快速找到对应使用文档的用户 | **文档版本**：V1.1
 > **更新日期**：2026 年 3 月 23 日 | **文档定位**：飞书云 Claw 文档总入口，按“先做什么、出问题看什么、你属于哪类用户”来组织
 
 ---
@@ -122,33 +122,27 @@
 
 ---
 
-## 七、推荐阅读顺序
+## 七、按你的时间和目标来选
 
-### 最推荐的主线
-
-1. [04A-飞书云 Claw 安装后使用与配置指南.md](./feishu-cloud-usage.md)
-2. [04B-飞书云 Claw 定时任务模板大全.md](./feishu-cloud-scheduler-recipes.md)
-3. [04C-飞书云 Claw 常用 Skills 场景手册.md](./feishu-cloud-skills-playbook.md)
-4. [04D-飞书云 Claw 故障排查速查表.md](./feishu-cloud-troubleshooting.md)
-
-### 如果你时间很少
-
-只看：
+### 只有 10 分钟
 
 1. [04H-飞书云 Claw 非技术用户极简版.md](./feishu-cloud-simple-guide.md)
 2. [04B-飞书云 Claw 定时任务模板大全.md](./feishu-cloud-scheduler-recipes.md)
 
-### 如果你想系统用起来
-
-全套看：
+### 想按主线快速跑通
 
 1. [04A-飞书云 Claw 安装后使用与配置指南.md](./feishu-cloud-usage.md)
 2. [04B-飞书云 Claw 定时任务模板大全.md](./feishu-cloud-scheduler-recipes.md)
 3. [04C-飞书云 Claw 常用 Skills 场景手册.md](./feishu-cloud-skills-playbook.md)
 4. [04D-飞书云 Claw 故障排查速查表.md](./feishu-cloud-troubleshooting.md)
-5. [04E-飞书云 Claw 推荐配置清单.md](./feishu-cloud-config-checklist.md)
-6. [04F-飞书云 Claw 每日与每周最佳实践.md](./feishu-cloud-best-practices.md)
-7. [04G-飞书云 Claw 7 天上手路线.md](./feishu-cloud-7day-onboarding.md)
+
+### 想系统用起来
+
+继续补充阅读：
+
+1. [04E-飞书云 Claw 推荐配置清单.md](./feishu-cloud-config-checklist.md)
+2. [04F-飞书云 Claw 每日与每周最佳实践.md](./feishu-cloud-best-practices.md)
+3. [04G-飞书云 Claw 7 天上手路线.md](./feishu-cloud-7day-onboarding.md)
 
 ---
 
