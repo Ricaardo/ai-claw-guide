@@ -25,6 +25,8 @@
 - 飞书云 Claw 想直接抄一套推荐配置：[04E-飞书云Claw-推荐配置清单.md](04E-飞书云Claw-推荐配置清单.md)
 - 飞书云 Claw 想建立每天/每周使用节奏：[04F-飞书云Claw-每日与每周最佳实践.md](04F-飞书云Claw-每日与每周最佳实践.md)
 - 飞书云 Claw 想按路线 7 天上手：[04G-飞书云Claw-7天上手路线.md](04G-飞书云Claw-7天上手路线.md)
+- 飞书云 Claw 想先看整套文档怎么读：[docs/openclaw/feishu-cloud-index.md](docs/openclaw/feishu-cloud-index.md)
+- 飞书云 Claw 想看最简单版本：[04H-飞书云Claw-非技术用户极简版.md](04H-飞书云Claw-非技术用户极简版.md)
 
 **一键脚本版**（最快跑通，适合只想先装起来的人）：
 
