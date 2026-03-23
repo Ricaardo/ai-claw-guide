@@ -11,7 +11,7 @@ const docSidebar = [
     text: 'OpenClaw',
     items: [
       {
-        text: '安装部署',
+        text: '安装前',
         collapsed: false,
         items: [
           { text: 'macOS 一键脚本', link: '/openclaw/install-macos-script' },
@@ -20,20 +20,10 @@ const docSidebar = [
           { text: 'Windows 零基础指南', link: '/openclaw/install-windows' },
           { text: 'Linux 一键脚本', link: '/openclaw/install-linux-script' },
           { text: '云端部署', link: '/openclaw/deploy-cloud' },
-          { text: '飞书云 Claw 安装后使用', link: '/openclaw/feishu-cloud-usage' },
-          { text: '飞书云 Claw 定时任务模板', link: '/openclaw/feishu-cloud-scheduler-recipes' },
-          { text: '飞书云 Claw 常用 Skills 场景', link: '/openclaw/feishu-cloud-skills-playbook' },
-          { text: '飞书云 Claw 故障排查', link: '/openclaw/feishu-cloud-troubleshooting' },
-          { text: '飞书云 Claw 推荐配置', link: '/openclaw/feishu-cloud-config-checklist' },
-          { text: '飞书云 Claw 最佳实践', link: '/openclaw/feishu-cloud-best-practices' },
-          { text: '飞书云 Claw 7 天上手', link: '/openclaw/feishu-cloud-7day-onboarding' },
-          { text: '飞书云 Claw 文档总览', link: '/openclaw/feishu-cloud-index' },
-          { text: '飞书云 Claw 极简版', link: '/openclaw/feishu-cloud-simple-guide' },
-          { text: '飞书云 Claw FAQ', link: '/openclaw/feishu-cloud-faq' },
         ],
       },
       {
-        text: '配置',
+        text: '安装后',
         collapsed: false,
         items: [
           { text: '模型配置', link: '/openclaw/model-config' },
@@ -45,6 +35,22 @@ const docSidebar = [
           { text: '聊天渠道总表', link: '/openclaw/channel-overview' },
           { text: '聊天渠道详细说明', link: '/openclaw/channel-guide' },
           { text: 'Skills 安装与推荐', link: '/openclaw/skills' },
+        ],
+      },
+      {
+        text: '飞书云 Claw',
+        collapsed: false,
+        items: [
+          { text: '文档总览', link: '/openclaw/feishu-cloud-index' },
+          { text: '极简版', link: '/openclaw/feishu-cloud-simple-guide' },
+          { text: 'FAQ', link: '/openclaw/feishu-cloud-faq' },
+          { text: '安装后使用', link: '/openclaw/feishu-cloud-usage' },
+          { text: '定时任务模板', link: '/openclaw/feishu-cloud-scheduler-recipes' },
+          { text: '常用 Skills 场景', link: '/openclaw/feishu-cloud-skills-playbook' },
+          { text: '故障排查', link: '/openclaw/feishu-cloud-troubleshooting' },
+          { text: '推荐配置', link: '/openclaw/feishu-cloud-config-checklist' },
+          { text: '最佳实践', link: '/openclaw/feishu-cloud-best-practices' },
+          { text: '7 天上手', link: '/openclaw/feishu-cloud-7day-onboarding' },
         ],
       },
       { text: '排障与维护', link: '/openclaw/troubleshooting' },
