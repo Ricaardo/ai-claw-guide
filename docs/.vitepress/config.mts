@@ -67,7 +67,33 @@ const docSidebar = [
   {
     text: 'AI 编码工具',
     items: [
-      { text: '配送指南总览', link: '/ai-tools/' },
+      { text: '总览', link: '/ai-tools/' },
+      {
+        text: '新手必读',
+        collapsed: false,
+        items: [
+          { text: '前置环境安装', link: '/ai-tools/prerequisites' },
+          { text: 'OpenCode 安装配置 ⭐', link: '/ai-tools/opencode' },
+        ],
+      },
+      {
+        text: '其他工具',
+        collapsed: false,
+        items: [
+          { text: 'Claude Code', link: '/ai-tools/claude-code' },
+          { text: 'Gemini CLI', link: '/ai-tools/gemini-cli' },
+          { text: 'Codex', link: '/ai-tools/codex' },
+        ],
+      },
+      {
+        text: '进阶配置',
+        collapsed: false,
+        items: [
+          { text: 'CC-Switch 配置管理', link: '/ai-tools/cc-switch' },
+          { text: '代理配置', link: '/ai-tools/proxy' },
+          { text: '常见问题', link: '/ai-tools/faq' },
+        ],
+      },
     ],
   },
 ]
