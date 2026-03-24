@@ -64,6 +64,12 @@ const docSidebar = [
       { text: 'Windows 状态说明', link: '/qclaw/windows-status' },
     ],
   },
+  {
+    text: 'AI 编码工具',
+    items: [
+      { text: '配送指南总览', link: '/ai-tools/' },
+    ],
+  },
 ]
 
 export default defineConfig({
@@ -76,6 +82,7 @@ export default defineConfig({
       { text: '快速开始', link: '/guide/' },
       { text: 'OpenClaw', link: '/openclaw/install-macos-script' },
       { text: 'Qclaw', link: '/qclaw/install-macos' },
+      { text: 'AI 编码工具', link: '/ai-tools/' },
       { text: '资源导航', link: '/resources' },
     ],
 
@@ -83,6 +90,7 @@ export default defineConfig({
       '/guide/': docSidebar,
       '/openclaw/': docSidebar,
       '/qclaw/': docSidebar,
+      '/ai-tools/': docSidebar,
       '/resources': [
         {
           text: '资源导航',
